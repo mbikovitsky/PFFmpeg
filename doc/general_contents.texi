@@ -568,6 +568,8 @@ library:
 @item Ogg                       @tab X @tab X
 @item Playstation Portable PMP  @tab   @tab X
 @item Portable Voice Format     @tab   @tab X
+@item PFF                       @tab   @tab X
+    @tab Video format used in the Still Life 2 video game.
 @item TechnoTrend PVA           @tab   @tab X
     @tab Used by TechnoTrend DVB PCI boards.
 @item QCP                       @tab   @tab X

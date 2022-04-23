@@ -3481,6 +3481,7 @@ wtv_demuxer_select="mpegts_demuxer riffdec"
 wtv_muxer_select="mpegts_muxer riffenc"
 xmv_demuxer_select="riffdec"
 xwma_demuxer_select="riffdec"
+pff_demuxer_select="ogg_demuxer"
 
 # indevs / outdevs
 android_camera_indev_deps="android camera2ndk mediandk pthreads"
