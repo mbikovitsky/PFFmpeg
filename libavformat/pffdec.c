@@ -1231,6 +1231,12 @@ static int pff_try_read_packet(AVFormatContext * s, AVPacket * pkt)
 
     (void)avio_get_str(s->pb, sizeof(scratch), scratch, sizeof(scratch));
 
+    if (avio_feof(s->pb))
+    {
+        result = AVERROR_EOF;
+        goto cleanup;
+    }
+
     for (;;)
     {
         if (context->new_frame)
