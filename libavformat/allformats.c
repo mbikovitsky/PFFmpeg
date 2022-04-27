@@ -499,6 +499,8 @@ extern const AVInputFormat  ff_xwma_demuxer;
 extern const AVInputFormat  ff_yop_demuxer;
 extern const AVInputFormat  ff_yuv4mpegpipe_demuxer;
 extern const AVOutputFormat ff_yuv4mpegpipe_muxer;
+extern const AVInputFormat  ff_pff_demuxer;
+extern const AVOutputFormat ff_pff_muxer;
 /* image demuxers */
 extern const AVInputFormat  ff_image_bmp_pipe_demuxer;
 extern const AVInputFormat  ff_image_cri_pipe_demuxer;
@@ -531,7 +533,6 @@ extern const AVInputFormat  ff_image_webp_pipe_demuxer;
 extern const AVInputFormat  ff_image_xbm_pipe_demuxer;
 extern const AVInputFormat  ff_image_xpm_pipe_demuxer;
 extern const AVInputFormat  ff_image_xwd_pipe_demuxer;
-extern const AVInputFormat  ff_pff_demuxer;
 
 /* external libraries */
 extern const AVOutputFormat ff_chromaprint_muxer;
